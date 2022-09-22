@@ -1,0 +1,30 @@
+print("Bienvenido al programa, calculadora de ganancias para su empresa. ")
+print("")
+nombre1=input("ingrese su primer nombre: ",)
+nombre2=input("ingrese su segundo nombre: ",)
+apellido1=input("ingrese su primer apellido: ",)
+apellido2=input("ingrese su segundo apellido: ",)
+print("")
+empresa=input("nombre de la empresa: ")
+print("")
+print("")
+print("bienvenido al sistema ", nombre1, nombre2, apellido1, apellido2 )
+print("")
+print("")
+print(" empresa:" + empresa )
+print("")
+print("")
+
+
+gananciaenero=int(input("ingrese las ganancias de enero: "))
+gananciafebrero=int(input("ingrese las ganancias de febrero: "))
+gananciamarzo=int(input("ingrese las ganancias de marzo: "))
+print("")
+print("")
+
+gananciastotales = gananciaenero + gananciafebrero + gananciamarzo
+print("las ganancias fueron de $: ",gananciastotales)
+print("")
+print("")
+
+print("gracias por utilizar nuestros servicios, lo esperamos pronto")
